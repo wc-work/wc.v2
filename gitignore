@@ -1,0 +1,37 @@
+.DS_Store
+.ansible
+.bundle
+.envrc
+.github/
+.idea/
+.travis.yml
+.vagrant
+npm-debug.log
+package.box
+playbook.retry
+# ignore everything in the root (html directory) except the "wp-content" directory.
+/*
+!/wp-content
+# ignore everything in the "wp-content" directory, except:
+# "themes" directory
+/*
+!/themes/
+# ignore specific themes
+themes/twenty*/
+# ignore specific files
+themes/wordpress-theme-starter-master/img/webcrumbs-video.mp4
+# ignore node dependency directories
+node_modules/
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+#ignore specific files
+.DS_Store
+.bashrc
+.cloud-locale-test.skip
+.digitalocean_password
+site.yml
+# large/disallowed file types
+.mp4
+.pdf
