@@ -22,21 +22,21 @@ a{
   height: 100%;
   
 }
-@media only screen and (min-width: 576px) {
-.logo {
-  display: block;}
-
-.mobile-logo {
-  display: none;
-  height: 5rem;
-}
-}
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 768px) {
 .logo {
   display: none;}
 
 .mobile-logo {
   display: block;
+  height: 5rem;
+}
+}
+@media only screen and (max-width: 576px) {
+.logo {
+  display: block;}
+
+.mobile-logo {
+  display: none;
   height: 5rem;
 }
 }
