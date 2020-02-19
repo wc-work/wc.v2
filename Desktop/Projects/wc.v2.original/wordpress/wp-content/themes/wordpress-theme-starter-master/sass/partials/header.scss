@@ -25,6 +25,12 @@ nav{
   display: none !important;
 }
 
+#flex-mlogo{
+  display:flex;
+  justify-content: flex-end;
+}
+
+
 @media (max-width:768px){
   .mobile-logo{
     display: block !important;
