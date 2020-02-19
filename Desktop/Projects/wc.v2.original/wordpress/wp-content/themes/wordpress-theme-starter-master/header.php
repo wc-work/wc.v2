@@ -43,10 +43,8 @@
 			<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
 	</div>
 
-	<div class="col-6" id="flex-mlogo">
-        <a href="#">
-			
-			
+	<div class="col-6 d-lg-none d-md-none d-xl-none" id="flex-mlogo">
+        <a href="#">		
 			
 				<img class="mobile-logo" id="flex-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
 			

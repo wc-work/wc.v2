@@ -61,20 +61,10 @@ color: $font-yellow;
 }
 .navbar-light .navbar-nav .nav-link:hover{
 color: $font-white;
+background-color: transparent;
 }
 
 .navbar-toggler{
-  // background-color: $font-white;
   border: none;
 }
-// #hamburger{
-//   margin-right: 18rem;
-// }
-
-
-// .navcrumb{
-//     height: 2rem;
-//     width: 2rem;
-//     margin-top: .8rem;
-// }
 
