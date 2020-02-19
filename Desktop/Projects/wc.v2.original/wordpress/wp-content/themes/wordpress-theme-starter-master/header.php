@@ -38,19 +38,18 @@
 			 	<span> 
 				 	<img src="<?php echo get_template_directory_uri(); ?>/img/iconfinder-icon.svg" alt="hamburger menu icon" id="hamburger"> 
 				</span>	
-            </button>
+			</button>
+			
+			<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
 	</div>
 
 	<div class="col-6" id="flex-mlogo">
         <a href="#">
-			<div class="flex-container">
-				<img class="logo" src="<?php echo get_template_directory_uri(); ?>/img/wc-site-logo.png" alt="Webcrumbs with digital crumbs on the bottom of the word 'crumbs'">
-			</div>
-			<div class="flex-container">
-
 			
-				<img class="mobile-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
-			</div>
+			
+			
+				<img class="mobile-logo" id="flex-logo" src="<?php echo get_template_directory_uri(); ?>/img/main-bug.png" alt="Webcrumbs alt logo. Digital bread with WC abbreviation in the middle.">
+			
         </a>
 	</div>
 
@@ -72,6 +71,9 @@
         ?>
     </div>
 </nav>
+
+
+
 <?php
 // wp_nav_menu( array(
 //     'theme_location'  => 'primary',
@@ -89,18 +91,6 @@
 
 
 
-
-
-
-
-
-
-
-				<!-- logo -->
-				<div class="logo">
-				
-				</div>
-				<!-- /logo -->
 
 			</header>
 			<!-- /header -->
