@@ -72,24 +72,27 @@ nav a {
   height: 100%;
 }
 
-@media only screen and (min-width: 768px) {
-  .logo {
-    display: none;
+.mobile-logo {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .mobile-logo {
+    display: block !important;
+    height: 5rem;
   }
 
-  .mobile-logo {
-    display: block;
-    height: 5rem;
+  .logo {
+    display: none !important;
   }
 }
-@media only screen and (max-width: 576px) {
-  .logo {
-    display: block;
-  }
-
+@media (min-width: 768) {
   .mobile-logo {
     display: none;
-    height: 5rem;
+  }
+
+  .logo {
+    display: block;
   }
 }
 .navbar-light .navbar-nav .nav-link {
