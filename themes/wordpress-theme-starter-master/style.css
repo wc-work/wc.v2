@@ -926,4 +926,19 @@ input[type=value] {
   grid-row: 21/span 2;
 }
 
+/**
+ * partials/single-wc-post
+ * ---
+ */
+.post-setup {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+.post-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */

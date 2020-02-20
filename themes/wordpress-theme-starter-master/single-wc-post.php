@@ -5,7 +5,7 @@
 */
 get_header();  ?>
 
-
+<div class="container-fluid post-setup">
 <main role="main">
 	<!-- section -->
 	<section>
@@ -31,9 +31,11 @@ get_header();  ?>
 					<span class="date"><?php the_time('F j, Y'); ?></span>
 
 					<!-- post title -->
+					<div class="post-title">
 					<h1>
 						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 					</h1>
+					</div>
 					<!-- /post title -->
 
 
@@ -75,6 +77,7 @@ get_header();  ?>
 	</section>
 	<!-- /section -->
 </main>
+</div><!-- end container -->
 
 <?php get_sidebar(); ?>
 
