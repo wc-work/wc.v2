@@ -63,6 +63,10 @@ nav {
   z-index: 1;
 }
 
+.navbar {
+  margin: 0;
+}
+
 nav a {
   margin-left: 3rem;
 }
@@ -708,10 +712,6 @@ input[type=value] {
 }
 
 /*# sourceMappingURL=style.css.map */
-.mov {
-  overflow: hidden;
-}
-
 .process .grid {
   position: relative;
 }
